@@ -57,29 +57,6 @@ Sistem Pembelian Film Berbasis Web adalah aplikasi yang dirancang untuk memungki
   - **MySQL**: Database relasional untuk menyimpan data pengguna, film, dan transaksi.
   - **Sequelize**: ORM untuk memudahkan interaksi dengan database.
 
-## Struktur
-
-/project-root
-│
-├── /frontend               # Folder untuk aplikasi frontend
-│   ├── /public             # Berisi file statis seperti index.html
-│   ├── /src                # Berisi file sumber React
-│   │   ├── /components     # Komponen React
-│   │   ├── /styles         # File CSS
-│   │   ├── App.js          # Komponen utama aplikasi
-│   │   └── index.js        # Entry point aplikasi
-│   └── package.json        # Konfigurasi npm untuk frontend
-│
-├── /backend                # Folder untuk aplikasi backend
-│   ├── /controllers        # Kontroler untuk menangani logika bisnis
-│   ├── /models             # Model untuk ORM (Sequelize)
-│   ├── /routes             # Rute API
-│   ├── /middlewares        # Middleware Express
-│   ├── server.js           # File utama untuk menjalankan server
-│   └── package.json        # Konfigurasi npm untuk backend
-│
-└── README.md               # File ini
-
 ## Penulis
 - Radithya Haikal Ardhana
 - haikal07ardhana@gmail.com
