@@ -15,11 +15,6 @@ Sistem Pembelian Film Berbasis Web adalah aplikasi yang dirancang untuk memungki
 
 - [Fitur](#fitur)
 - [Teknologi yang Digunakan](#teknologi-yang-digunakan)
-- [Instalasi](#instalasi)
-- [Cara Menggunakan](#cara-menggunakan)
-- [Struktur Proyek](#struktur-proyek)
-- [API](#api)
-- [Kontribusi](#kontribusi)
 - [Lisensi](#lisensi)
 - [Penulis](#penulis)
 
