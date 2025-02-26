@@ -1,0 +1,84 @@
+/* DetailPage Styles */
+.detail-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.film-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.film-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.film-image {
+    width: 100%;
+    max-width: 400px;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.film-details {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.film-details p {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #444;
+}
+
+.buy-button, .trailer-button {
+    background-color: #69B1FF;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 300px;
+    align-self: center;
+}
+
+.buy-button:hover, .trailer-button:hover {
+    background-color: #4a90e2;
+}
+
+.trailer-button {
+    background-color: #FFB769;
+}
+
+@media (max-width: 768px) {
+    .film-content {
+        flex-direction: column;
+    }
+    .film-image {
+        max-width: 100%;
+    }
+    .film-details {
+        width: 100%;
+    }
+}

@@ -1,0 +1,89 @@
+.body-admin {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* BAGIAN FORM (KIRI) */
+.body-admin .form-container {
+    flex: 1;
+    max-width: 40%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.body-admin h2 {
+    text-align: center;
+    color: #333;
+}
+
+.body-admin form {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-admin input,
+.body-admin textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.body-admin button {
+    background: #69B1FF;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.body-admin button:hover {
+    background: #FFB769;
+}
+
+/* BAGIAN DAFTAR FILM (KANAN) */
+.body-admin .film-list {
+    flex: 1;
+    max-width: 55%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.film-list h2 {
+    text-align: center;
+    color: #333;
+}
+
+.film-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.film-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.film-card h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.film-card p {
+    font-size: 14px;
+    color: #666;
+}

@@ -1,0 +1,170 @@
+GET http://localhost:3100/admin/
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjoxLCJ1c2VybmFtZSI6IkppZGFuIiwiZW1haWwiOiJKaWRhbkBnbWFpbC5jb20iLCJpYXQiOjE3MzkxMzMyNDIsImV4cCI6MTczOTIxOTY0Mn0.fNv72iHji5QVBkUGdnas7xyiKX5D7iQsd3MFP80Cyo8
+
+###
+GET http://localhost:3100/admin/find/1
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjoxLCJ1c2VybmFtZSI6IkppZGFuIiwiZW1haWwiOiJKaWRhbkBnbWFpbC5jb20iLCJpYXQiOjE3MzkxMzMyNDIsImV4cCI6MTczOTIxOTY0Mn0.fNv72iHji5QVBkUGdnas7xyiKX5D7iQsd3MFP80Cyo8
+
+###
+POST http://localhost:3100/admin/register
+Content-Type: application/json
+
+ {
+"username":"Jidan",
+"email": "Jidan@gmail.com",
+"password": "kominfo223"
+ }
+
+###
+POST http://localhost:3100/admin/login
+Content-Type: application/json
+
+ {
+
+"email": "Jidan@gmail.com",
+"password": "kominfo223"
+ }
+
+###
+DELETE http://localhost:3100/admin/delete/1
+
+
+
+//! Pembeli
+###
+POST http://localhost:3100/pembeli/register
+Content-Type: application/json
+
+ {
+"username":"Asep",
+"email": "asep@gmail.com",
+"password": "asep123",
+"phone_number":"08976543213"
+ }
+###
+POST http://localhost:3100/pembeli/login
+Content-Type: application/json
+
+ {
+"email": "agus@gmail.com",
+"password": "agus12"
+ }
+
+###
+PUT http://localhost:3100/pembeli/update/1
+Content-Type: application/json
+
+ {
+"username":"Agus Salim",
+"email": "agus@gmail.com",
+"password": "agus12",
+"phone_number":"08976543213"
+ }
+
+###
+GET http://localhost:3100/pembeli/
+
+###
+DELETE http://localhost:3100/pembeli/delete/2
+
+
+
+//?film
+###
+POST http://localhost:3100/film/create
+Content-Type: application/json
+
+{
+   "title":"toys",
+   "price":14000,
+   "description":"aslsla",
+   "img":"sss",
+   "genre":"clf",
+   "language":"Ing",
+   "actors":"badot",
+   "producers":"sss",
+   "release_date":"2024-10-1",
+   "duration":1000,
+   "rating":10.0
+
+}
+
+###
+PUT http://localhost:3100/film/update/2
+Content-Type: application/json
+
+{
+   "title":"tys",
+   "price":14000,
+   "description":"aslsla",
+   "img":"sss",
+   "genre":"clf",
+   "language":"Ing",
+   "actors":"badot",
+   "producers":"sss",
+   "release_date":"2024-10-1",
+   "duration":1000,
+   "rating":10.0
+
+}
+
+###
+GET http://localhost:3100/film/
+###
+DELETE  http://localhost:3100/film/delete/1
+###
+
+
+//? cart
+
+###
+
+
+###
+PUT http://localhost:3100/cart/update/1
+Content-Type: application/json
+
+{
+   "status":"selesaii",
+   "PembeliId":1,
+   "FilmId":2
+}
+
+###
+GET http://localhost:3100/cart/
+
+###
+DELETE http://localhost:3100/cart/delete/2
+
+
+//?transaksi
+
+
+###
+POST http://localhost:3100/transaksi/create
+Content-Type: application/json
+
+{
+   "transaction_date":"2025-10-1",
+   "total_price":14000,
+   "payment_status":"berhasil",
+   "payment_method":"sss",
+   "CartId":1
+
+}
+
+###
+PUT http://localhost:3100/transaksi/update/1
+Content-Type: application/json
+
+{
+   "transaction_date":"2025-10-1",
+   "total_price":15000,
+   "payment_status":"berhasil",
+   "payment_method":"sss",
+   "CartId":1
+
+}
+
+###
+GET http://localhost:3100/transaksi/find/1

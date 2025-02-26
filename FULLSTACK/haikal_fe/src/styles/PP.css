@@ -1,0 +1,104 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* right: 100%; */
+    position: relative;
+    background-color: white;
+    /* padding: 20px; */
+}
+
+.profile-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-top: 58px;
+    padding-bottom: 58px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #69B1FF;
+}
+
+.profile-left h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.profile-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* padding-right: 10px; */
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info-box p {
+    font-size: 16px;
+    color: #444;
+    margin: 5px 0;
+}
+
+.password-box {
+    margin-top: 10px;
+}
+
+.password-box h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.password-box input {
+    width: 94%;
+    padding: 10px;
+    border: 2px solid #69B1FF;
+    border-radius: 15px;
+    font-size: 16px;
+    outline: none;
+}
+
+.password-box button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #FFB769;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.password-box button:hover {
+    background-color: #e09c5c;
+}
+
+.logout-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.logout-button:hover {
+    background-color: #cc0000;
+}

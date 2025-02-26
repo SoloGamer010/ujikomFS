@@ -1,0 +1,46 @@
+.register-wrapper .register-box {
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 20px 19px 10px rgba(0, 0, 0, 0.1)
+}
+
+.buttonR {
+    width: 100%;
+    padding: 10px;
+    background: #00aaff;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.register-wrapper {
+    background: linear-gradient(to right, #0044cc, #69B1FF);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 200vh;
+    margin: 0;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+}
+
+.input-group input {
+    border-radius: 20px;
+    border-color: #0044cc;
+    display: flex;
+    padding: 10px;
+}
+
+.register-wrapper .input-group {
+    padding: 10px;
+}
